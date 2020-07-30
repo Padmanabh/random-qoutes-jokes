@@ -2,4 +2,4 @@
 
 Using react, react-icons, api (to be implemented)
 
-![Screenshot]("/public/screenshot.png")
+![Screenshot](public/screenshot.png)
