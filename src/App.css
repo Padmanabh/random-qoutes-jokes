@@ -3,18 +3,26 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+
+/* :root {
+  --backgroundColor: green;
+} */
+
 .app {
   height: 100vh;
-  background-color: green;
-  color: green;
+  /* background-color: var(--backgroundColor); */
+  color: var(--backgroundColor);
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 1;
+  transition: opacity 500ms 0ms ease-in;
+  transition: margin-right 2s;
 }
 
-.app button {
-  background-color: green;
-}
+/* .app button {
+  background-color: var(--backgroundColor);
+} */
 
 #qoute-box {
   border: 0px;
@@ -50,7 +58,6 @@
 }
 
 .qoute-button-panel {
-  padding: 0 20px 0 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -68,4 +75,5 @@
   padding: 10px;
   height: 40px;
   cursor: pointer;
+  outline: none;
 }
