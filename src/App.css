@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.app {
+  height: 100vh;
+  background-color: green;
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app button {
+  background-color: green;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#qoute-box {
+  border: 0px;
   display: flex;
   flex-direction: column;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: white;
+  width: 450px;
+}
+
+#text-ico {
+  margin-right: 8px;
+}
+
+#text {
+  color: inherit;
+  font-size: 1.5rem;
+  text-align: center;
+  clear: both;
+}
+
+#author {
+  flex: 1;
+  text-align: right;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#author > span:nth-child(1) {
+  margin-right: 4px;
+}
+
+.qoute-button-panel {
+  padding: 0 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#tweet-quote {
+  font-size: 40px;
+  cursor: pointer;
+  color: inherit;
+}
+
+#new-qoute {
+  border: 0px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border-radius: 4px;
+  padding: 10px;
+  height: 40px;
+  cursor: pointer;
 }
