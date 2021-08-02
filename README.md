@@ -1,5 +1,5 @@
 ### Random qoutes and jokes app
 
-Using react, react-icons, api (to be implemented)
+Using react, react-icons
 
 ![Screenshot](public/screenshot.png)
